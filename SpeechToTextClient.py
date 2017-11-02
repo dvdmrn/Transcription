@@ -6,8 +6,8 @@ class SpeechToTextClient(WebSocketClient):
     def __init__(self):
         ws_url = "wss://stream.watsonplatform.net/speech-to-text/api/v1/recognize"
         
-        username ="c1acbf0b-a612-4f89-bfb6-14fa3047d301"
-        password = "KWOzIQcJr0ES"
+        username ="no"
+        password = "no"
         auth_string = "%s:%s" % (username, password)
         base64string = base64.encodestring(auth_string).replace("\n", "")
         
